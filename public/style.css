@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+}
+
+.collage-container {
+  background-color: black;
+  height: 100vh;
+  overflow: auto;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+div {
+  border: solid 2px black;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+card {
+  border: solid 2px red;
+  min-width: 20%;
+  margin-right: 5%;
+}
