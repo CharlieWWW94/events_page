@@ -5,35 +5,103 @@ html {
 body {
   margin: 0;
   height: 100%;
+  background-color: rgb(11, 11, 11);
+  margin-left: 2%;
 }
 
 h1 {
   font-family: "Pacifico", cursive;
+  font-size: 9vh;
+  color: white;
+  margin-bottom: 0;
+}
+#subhead {
+  color: rgb(227, 172, 22);
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 4vh;
+}
+
+h2 {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 4vh;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 main {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
+  display: flex;
+  flex-direction: row;
+  gap: 4vh;
 }
 
-.collage-container {
-  background-color: black;
-  height: 100vh;
-  overflow: auto;
-}
-
-img {
+.card-image {
+  min-width: 100%;
   max-width: 100%;
-  border-radius: 8px;
+  max-height: 75%;
+  object-fit: cover;
+  transition: max-height 0.5s ease-in-out;
 }
 
-div {
-  border: solid 2px black;
+.description {
+  visibility: hidden;
+  margin-bottom: -30%;
+  margin-left: 3%;
+  margin-right: 3%;
+  transition: margin-bottom 0.4s ease-in;
+  transition: visibility 0.4s ease-in-out;
+}
+
+.event-card:hover .card-image {
+  max-height: 40%;
+}
+
+.event-card:hover .description {
+  margin-top: 6%;
+  visibility: visible;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: left;
+}
+
+.tag {
+  background-color: #f1f1f1;
+  padding: 1vh;
+  border-radius: 4px;
+  min-height: 100%;
+  margin: 1vh;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  max-height: 3vh;
+  margin-left: 3%;
+}
+
+.cal-wrapper {
+  max-width: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 3vh;
+}
+
+.calendar {
+  max-width: 90%;
+  padding-bottom: 2px;
 }
 
 .events-container {
   display: flex;
   flex-direction: column;
+  max-width: 60%;
 }
 
 .card-container {
@@ -48,7 +116,77 @@ div {
 }
 
 card {
-  border: solid 2px red;
-  min-width: 20%;
+  min-width: 30%;
+  max-width: 35%;
   margin-right: 5%;
+  background-color: white;
+  border-radius: 14px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 3px 15px 2px #000000;
+  box-shadow: 0px 3px 15px 2px #000000;
+}
+
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  margin-top: -15%;
+  margin-left: 3%;
+}
+
+#form-header {
+  margin-bottom: 0;
+  margin-top: 12vh;
+}
+
+#subhead2 {
+  color: rgb(227, 172, 22);
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 3vh;
+}
+
+label {
+  display: inline-block;
+  width: 80%;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  line-height: 2;
+}
+input {
+  display: inline-block;
+  width: 80%;
+}
+button {
+  all: unset;
+  display: inline-block;
+  width: 81.5%;
+  border-radius: 4px;
+  background-color: rgb(227, 172, 22);
+  text-align: center;
+  margin-top: 3vh;
+  padding: 1vh 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+button:hover {
+  background-color: rgb(177, 137, 27);
+}
+
+@media (max-width: 1200px) {
+  main {
+    flex-direction: column;
+  }
+  .events-container {
+    max-width: 100%;
+  }
+  card {
+    max-width: 35%;
+    min-width: 30%;
+  }
+}
+
+@media (max-width: 700px) {
+  card {
+    max-width: 60%;
+    min-width: 60%;
+  }
 }

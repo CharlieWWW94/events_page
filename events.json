@@ -4,25 +4,86 @@
       "date": "17/10/2022",
       "time": "19.30",
       "venue": "O2",
-      "city": "London"
+      "city": "London",
+      "description": "The Jimi Hendrix Experience return for a one off showcase of their seminal albub 'Are you experienced?'",
+      "tags": ["Rock", "Legend", "Psychadelic"],
+      "image": "https://www.onthisday.com/images/people/jimi-hendrix-medium.jpg"
     },
     "Royal Blood": {
       "date": "19/10/2022",
       "time": "20.00",
       "venue": "Cardiff City Stadium",
-      "city": "Cardiff"
+      "city": "Cardiff",
+      "description": "The closing night show of Royal Blood's Typhoons album tour - guaranteed to be one to remember.",
+      "tags": ["Alternative"],
+      "image": "https://www.jointherevolution.net/wp-content/uploads/2017/12/RoyalBlood_TourPoster1a.jpg"
     },
     "The Doors": {
       "date": "07/11/2022",
       "time": "20.45",
       "venue": "Camden Underworld",
-      "city": "London"
+      "city": "London",
+      "description": "Jim Morrisson is back from his extended trip to the other side, and better than ever.",
+      "tags": ["1960s", "Psychadelic"]
     },
     "Miles Davis": {
       "date": "11/11/2022",
       "time": "18.45",
       "venue": "The Queen's Hall",
-      "city": "Edinburgh"
+      "city": "Edinburgh",
+      "description": "Davis returns to Edinburgh's Queen Hall with his legendary quintet for a night of jazz, improvisation and ambience.",
+      "tags": ["Jazz", "Improvisation"]
+    },
+    "Jools Holland": {
+      "date": "11/11/2022",
+      "time": "18.45",
+      "venue": "The Queen's Hall",
+      "city": "Edinburgh",
+      "description": "Holland returns to Edinburgh's Queen Hall with his legendary quintet for a night of jazz, improvisation and ambience.",
+      "tags": ["Jazz", "Piano"]
+    },
+    "The Arctic Monkeys": {
+      "date": "07/11/2022",
+      "time": "20.45",
+      "venue": "Alexandra Palace",
+      "city": "London",
+      "description": "The Arctic Monkeys are back from his extended trip to the US, and are better than ever.",
+      "tags": ["Indie", "Chart", "Guitars"]
+    },
+    "Motorhead": {
+      "date": "07/11/2022",
+      "time": "20.45",
+      "venue": "The Queen's Hall",
+      "city": "Edinburgh",
+      "description": "Whiskey and Distortion - You know what to expect from Motorhead. More of the same. BYOB.",
+      "tags": ["Legends", "Distortion"]
+    },
+    "Emancipator": {
+      "date": "29/12/2022",
+      "time": "21.00",
+      "venue": "Cardiff City Stadium",
+      "city": "Cardiff",
+      "description": "Synthesizers, strobes and no air-conditioning. Don't wear your best trainers.",
+      "tags": ["Ambient", "Techo", "Bass"],
+      "image": "https://www.jointherevolution.net/wp-content/uploads/2017/12/RoyalBlood_TourPoster1a.jpg"
+    },
+    "Metronomy": {
+      "date": "31/12/2022",
+      "time": "21.00",
+      "venue": "Cardiff City Stadium",
+      "city": "Cardiff",
+      "description": "Hopefully they play their old stuff.",
+      "tags": ["Indie", "Hipster", "Dance"],
+      "image": "https://www.jointherevolution.net/wp-content/uploads/2017/12/RoyalBlood_TourPoster1a.jpg"
+    },
+    "Johann Sebastian Bach": {
+      "date": "31/12/2022",
+      "time": "21.00",
+      "venue": "Cardiff City Stadium",
+      "city": "Cardiff",
+      "description": "Guess who's back, back again - Johann's back from the dead.",
+      "tags": ["Piano", "Classical"],
+      "image": "https://www.jointherevolution.net/wp-content/uploads/2017/12/RoyalBlood_TourPoster1a.jpg"
     }
   }
 }
